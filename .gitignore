@@ -1,0 +1,31 @@
+# Eclipse Dynamic Web Project
+
+# 빌드 결과물 제외
+/build/
+/bin/
+/target/
+*.class
+
+# 임시 파일 및 로그
+*.log
+*.tmp
+*.bak
+*.swp
+
+# 운영체제 파일
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Eclipse 로컬 캐시
+.metadata/
+.recommenders/
+
+# Eclipse 프로젝트 설정 파일 유지
+!.project
+!.classpath
+!.settings/
+!.settings/**
+
+# 웹 프로젝트 소스 유지
+!src/
